@@ -9,7 +9,8 @@
   },
   "scripts": {
     "update-build": "python update.py",
-    "test": "node test/index.mjs"
+    "test": "node test/index.mjs",
+    "create-zips": "node create-all-zips.mjs"
   },
   "type": "module",
   "author": "arianrhodsandlot",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/arianrhodsandlot/retroarch-emscripten-build/issues"
   },
-  "homepage": "https://github.com/arianrhodsandlot/retroarch-emscripten-build#readme"
+  "homepage": "https://github.com/arianrhodsandlot/retroarch-emscripten-build#readme",
+  "dependencies": {
+    "archiver": "^6.0.1"
+  }
 }
